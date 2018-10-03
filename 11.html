@@ -1,0 +1,57 @@
+<html>
+<head>
+        <script type="text/javascript">
+
+          function people(name, age, gender)
+          {
+              this.name = name;
+              this.age = age;
+              this.gender = gender;
+              this.Retirement = YearsLeft;
+          }
+
+          function YearsLeft()
+          {
+              var NumYears = 60 - this.age
+              return NumYears;
+          }
+
+          var Shivam = new people("Shivam", 17, "M");
+          var Nik = new people("Nik", 29, "F");
+          var Mike = new people("Mike",9, "M");
+
+        </script>
+</head>
+
+<body>
+<script type="text/javascript">
+
+if(Shivam.age >= 18){
+    document.write(Shivam.name + " is " + Shivam.age + " years old and can vote." + "</br >");
+    if(Shivam.gender = "M")
+    {
+        document.write("He is " + Shivam.Retirement() + " years away from retirement");
+    }
+    else if(Shivam.gender = "F")
+    {
+        document.write("She is " + Shivam.Retirement() + " years away from retirement");
+    }
+}
+else{
+    document.write(Shivam.name + " is " + Shivam.age + " years old and can't vote." + "</br >");
+    if(Shivam.gender = "M")
+    {
+        document.write("He is " + Shivam.Retirement() + " years away from retirement");
+    }
+    else if(Shivam.gender = "F") 
+    {
+        document.write("She is " + Shivam.Retirement() + " years away from retirement");
+    }
+}
+</script>
+
+
+
+</body>
+</html>
+ 
