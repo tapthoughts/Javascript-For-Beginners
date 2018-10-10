@@ -1,5 +1,6 @@
-# JS-practice
+# Javascript-For-Beginners
 Basic set of codes for learning js
 Especially for beginners
 Can be used for making projects
-Please feel free to contribute
+Used Visual Studio Code
+Feel free to contribute
