@@ -1,4 +1,5 @@
-# js-practice
+# JS-practice
 Basic set of codes for learning js
-Specially for beginners
+Especially for beginners
 Can be used for making projects
+Please feel free to contribute
